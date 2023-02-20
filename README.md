@@ -44,7 +44,7 @@ Colocando -4 no Y o objeto que for aplicado esse efeito da gravidade, o sentido 
 Criando a física nos objetos : Criar física nos objetos é muito simples, basta usar um técnica de desenho.
 Vamos fazer um desenho de uma reta. Após a reta ser desenhada, posicione no local desejado.
 
-<img src="https://github.com/shildbrok/Analise-de-L-gica/blob/main/image4.png" alt="alternatetext">
+<img src="https://github.com/shildbrok/Analise-de-L-gica/blob/main/image11.png" alt="alternatetext">
 
 Então vamos a lógica :</br> 
 Quando a Bandeira for clicada{</br>
