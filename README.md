@@ -99,3 +99,8 @@ Quando a Bandeira for clicada{</br>
   &emsp;}</br>
 }</br>
 <img src="https://github.com/shildbrok/Analise-de-L-gica/blob/main/image6.png" alt="alternatetext">
+
+<h2>Mini desafios</h2>
+<h3>Dada as informações acima, ainda falta algumas implementações simples, como animação do persongem, o efeito dele crescendo, e alguma implementações opcionais como pulo entre outras, com as informações acima, e uma pesquisa desenvolvida por VOCÊ! Desenvolva algumas outras mecânicas</h3>
+
+--Creator: Estevan Generoso
