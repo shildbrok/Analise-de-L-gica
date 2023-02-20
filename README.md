@@ -46,12 +46,12 @@ Vamos fazer um desenho de uma reta. Após a reta ser desenhada, posicione no loc
 
 Então vamos a lógica :</br> 
 Quando a Bandeira for clicada{</br>
-	Sempre{</br>
-		se *urso* não tocar na (Reta) então {</br>
-		gravidade * Lembrando a gravidade está definida em -4*</br>
-			  * forçando a decida no eixo Y do plano.*</br>
-		}</br>
-	}</br>
+        Sempre{</br>
+                se *urso* não tocar na (Reta) então {</br>
+                gravidade * Lembrando a gravidade está definida em -4*</br>
+                          * forçando a decida no eixo Y do plano.*</br>
+                }</br>
+        }</br>
 }</br>
 
 Após esse primeiro script o urso deve ser forçado a ir para baixo.
@@ -59,14 +59,14 @@ Após esse primeiro script o urso deve ser forçado a ir para baixo.
 Vamos faze o controle do Urso, ou seja se mover para um lado e para o outro, esse controle é simples de se fazer.
 
 Quando a Bandeira for clicada{</br>
-	Sempre{</br>
-		se *urso* apertar a tecla A então {</br>
-		adicione -7 a X *Isso faz com que o urso ande para o lado esquerdo*</br>
-		}</br>
-		se *urso* apertar a tecla D então {</br>
-		adicione 7 a X *Isso faz com que o urso ande para o lado direito*</br>
-		}</br>
-	}</br>
+        Sempre{</br>
+                se *urso* apertar a tecla A então {</br>
+                adicione -7 a X *Isso faz com que o urso ande para o lado esquerdo*</br>
+                }</br>
+                se *urso* apertar a tecla D então {</br>
+                adicione 7 a X *Isso faz com que o urso ande para o lado direito*</br>
+                }</br>
+        }</br>
 }</br>
 
 Agora o Urso deve se mover para o lado esquerdo e direito, esse é o script de movimento mais smples que deve ser feito.
@@ -78,17 +78,17 @@ Primeiro temos que criar uma Variavel chamada 'Pontos', ela vai ser responsavel 
 Essa é a parte mais complexa do script então reeleia muito, para conseguir entender.</br>
 
 Quando a Bandeira for clicada{</br>
-	mude Pontos para 0 *Isso fará com que resete todos os pontos ao iniciar o jogo*</br>
-	vá para X: Numero Aleatório Entre -220 e 220 Y: 181 * -220 e 220 são as coordenadas que definem as bordas do layout
-							    *ou seja se o bolo for alem desses numeros não ira aparecer na tela*</br>
-	sempre{</br>
-		se(*bolo* não tocando em reta) então{</br>
-		adicione -1 a Y *Esse script fará com que o objeto desca devagar*</br>
-		}</br>
-		se(*bolo* tocar em urso) então{</br>
-			adicione 1 a Ponto *Isso fará com que o ponto suba em 1 cada ve que o urso tocar o bolo*</br>
-			vá para X: Numero Aleatório Entre -220 e 220 Y: 181 * esse código irá forçar cada vez que o urso tocar no bolo ir para cima novamente*</br>
-		
-		}</br>
-	}</br>
+        mude Pontos para 0 *Isso fará com que resete todos os pontos ao iniciar o jogo*</br>
+        vá para X: Numero Aleatório Entre -220 e 220 Y: 181 * -220 e 220 são as coordenadas que definem as bordas do layout
+                                                            *ou seja se o bolo for alem desses numeros não ira aparecer na tela*</br>
+        sempre{</br>
+                se(*bolo* não tocando em reta) então{</br>
+                adicione -1 a Y *Esse script fará com que o objeto desca devagar*</br>
+                }</br>
+                se(*bolo* tocar em urso) então{</br>
+                        adicione 1 a Ponto *Isso fará com que o ponto suba em 1 cada ve que o urso tocar o bolo*</br>
+                        vá para X: Numero Aleatório Entre -220 e 220 Y: 181 * esse código irá forçar cada vez que o urso tocar no bolo ir para cima novamente*</br>
+
+                }</br>
+        }</br>
 }</br>
